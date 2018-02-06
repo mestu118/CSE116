@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+import Ducks
+
+import testing.Ducks;
+
+public class Testing {
+
+	@Test
+	public void test() {
+		Ducks duck = new Ducks();
+		assertEquals("a", duck);
+
+	}
+
+}

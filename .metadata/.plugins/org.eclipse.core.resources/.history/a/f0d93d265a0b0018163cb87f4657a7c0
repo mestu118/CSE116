@@ -1,0 +1,16 @@
+package homework01;
+
+public class Ducks {
+	
+	public static void main(String[] args) {
+		for(int i = 5; i > 0; i--) {
+			System.out.println(i +"little ducks went swimming one day,");
+			System.out.println("Over the hill and far away");
+			System.out.println("Mamma duck said: 'Quack, quack, quack, quack!'");
+			System.out.println("And only " + (i - 1) + " little ducks came back.");
+			
+			
+		}
+	}
+
+}
