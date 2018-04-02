@@ -1,9 +1,0 @@
-package testing;
-import org.junit.*;
-
-public class JUnitTest {
-	@Test
-	Ducks duck = new Ducks();
-	assertEquals("a", duck);
-
-}

@@ -62,7 +62,7 @@ public class ArrayMultiSet<E> extends AbstractCollection<E> {
 			  _size --;
 			  return true;
 		  }
-		  else if(_store[i] == obj) {
+		  else if( _store[i] == obj) {
 			  E temp = _store[i];
 			  _store[i] = _store[_size - 1];
 			  _store[_size - 1] = temp; 

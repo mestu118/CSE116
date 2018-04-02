@@ -7,6 +7,7 @@ public class Testing {
 	@Test
 	public void test() {
 		Ducks duck = new Ducks();
+		
 		assertEquals("a", duck);
 
 	}
